@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body onload="checkLogin()">
+    <header>
+      <h2>My Simple Shop</h2>
+      <div class="cart" onclick="location.href='cart.html'">
+        🛒 <span id="cart-count">0</span> <button onclick="logoutUser()">LogOut</button>
+      </div>
+    </header>
+    <div class="products" id="product-container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
